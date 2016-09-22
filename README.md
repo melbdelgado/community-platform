@@ -2,39 +2,39 @@
 
 [![Join the chat at https://gitter.im/CoderDojo/community-platform](https://badges.gitter.im/CoderDojo/community-platform.svg)](https://gitter.im/CoderDojo/community-platform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Bienvenidos a "Zen"! You can see the live site at [zen.coderdojo.com](https://zen.coderdojo.com).
+Bienvenidos a "Zen"! Pueden ver el sitio web en [zen.coderdojo.com](https://zen.coderdojo.com).
 
 Este repositorio es la documentación del proyecto. [We log issues in this repository](https://github.com/CoderDojo/community-platform/issues).
 
-There are also [three microservice repositories and a frontend repository](https://github.com/CoderDojo/community-platform/blob/master/architecture.md).
+También hay  [three microservice repositories and a frontend repository](https://github.com/CoderDojo/community-platform/blob/master/architecture.md).
 
-If you want to jump straight in to getting your development environment set up, [visit the development environment repository here](https://github.com/CoderDojo/cp-local-development).
+Si quieren ir directamente a la parte de iniciar su propio ámbito de desarrollo, [visiten el repositorio del ámbito de desarrollo aquí](https://github.com/CoderDojo/cp-local-development).
 
-# About the project
+# Sobre el proyecto
 
-[CoderDojo](coderdojo.com) is a network of free computer programming clubs for youths aged 7-17. It is a global charity and we currently have more than 900 clubs in over 63 countries!
+[CoderDojo](coderdojo.com) es una comunidad de programación gratuita para grupos de niños y jóvenes entre 7-17 años.  Somos una organización benéfica mundial y actualmente tenemos más de 900 grupos en alrededor de 60 países!
 
-Zen was originally set up to track new "Dojos" (coding clubs) and help the [CoderDojo Foundation](https://coderdojo.com/about/coderdojo-foundation/) track new clubs being set up worldwide.
-In 2015, it was redeveloped to be a fully fledged community platform. It is built entirely in javascript using [NodeJS](https://nodejs.org/) and [AngularJS](https://angularjs.org/).
+Creamos Zen para encontrar nuevos "Dojos" (grupos de programación) y para ayudar a [la Fundación CoderDojo](https://coderdojo.com/about/coderdojo-foundation/) a monitorear los grupos que hay por todo el mundo.
+En 2015 lo desarrollamos para que fuese una plataforma integral de la comunidad. La creamos por completo con javascript usando [NodeJS](https://nodejs.org/) y [AngularJS](https://angularjs.org/).
 
-It includes:
-- Ability to search for a Dojo (coding club) and join the club
+ Incluye:
+- la posibilidad de buscar un Dojo (un grupo de programación) y unirse a este grupo
 - A bespoke ticketing system where parents and mentors can book tickets for their local club
-- Profile pages for parents, mentors and youths
-- Two forums (Over 13 and community forum), running on [NodeBB](https://nodebb.org/).
-- [Mozilla Open Badges](http://openbadges.org/) integration.
+- un perfil para padres, mentores y niños/jóvenes
+- dos foros (Over 13 and community forum), que funcionan en [NodeBB](https://nodebb.org/).
+- integración de [Insiginias Públicas Mozilla](http://openbadges.org/) .
 
-Most of the technology we use is open source, and we are proud of it! For CoderDojo related questions, contact info@coderdojo.org.
-Get in touch with guillaume@coderdojo.org with any technical questions.
+La mayor parte de la tecnología que utilizamos proviene de recursos públicos y ¡eso nos enorgullece! Para preguntas relacionadas con CoderDojo, comunicarse a través de info@coderdojo.org.
+Comunicarse coon guillaume@coderdojo.org with por cuestiones técnicas.
 
-## Contributing to Zen
+## Para colaborar con Zen
 
-There are various ways to contribute to Zen:
+Hay muchas formas de colaborar con Zen:
 
-* as a developer, instructions for creating a local development environment can be found in the [cp-local-development](https://github.com/CoderDojo/cp-local-development) repository. You may also wish to read the [contributing](CONTRIBUTING.md) guide.
-* as a translator, we use [CrowdIn](https://crowdin.com/project/zen-community-platform) to help manage localisation, please sign up and help out!
-* issue management, we keep track of all our issues in GitHub in this repo, [help out here](https://github.com/CoderDojo/community-platform/issues)
-* documentation, by contributing to the documentation in this repository.
+* programar, las instrucciones para crear un espacio de trabajo en la zona se encuentran en el repositorio. [cp-local-development](https://github.com/CoderDojo/cp-local-development) . Tal vez quieras leer la guía  [colaborar](CONTRIBUTING.md)
+* traducir, usamos [CrowdIn](https://crowdin.com/project/zen-community-platform) para organizar la ubicación, ¡por favor únete y ayúdanos!
+* notificar problemas, es el encargado de detallar las fallas en elrepositorio de GitHub, [puedes ayudar aquí](https://github.com/CoderDojo/community-platform/issues)
+* documentar, para colaborar con la documentación en el repositorio.
 
 ## Where to begin
 
