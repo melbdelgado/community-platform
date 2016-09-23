@@ -15,77 +15,77 @@ Si quieres comenzar a configurar tu espacio ya, [visita el repositorio para conf
 [CoderDojo](coderdojo.com) es una comunidad gratuita de grupos de programación para niños y adolescentes de 7 a 17 años. Es una organización benéfica mundial y actualmente tenemos más de 900 grupos en más de 63 países.
 
 Zen fue desarrollado originalmente para encontrar nuevos "Dojos" (grupos de programación) y ayudar a la [Fundación CoderDojo](https://coderdojo.com/about/coderdojo-foundation/) a buscar los nuevos Dojos que se formen.
-En 2015, it was redeveloped to be a fully fledged community platform. It is built entirely in javascript using [NodeJS](https://nodejs.org/) and [AngularJS](https://angularjs.org/).
+En 2015, lo volvimos a desarrollar para que fuese una plataforma integral de la comunidad. La construimos completamente mediante javascript, [NodeJS](https://nodejs.org/) y [AngularJS](https://angularjs.org/).
 
-It includes:
-- Ability to search for a Dojo (coding club) and join the club
-- A bespoke ticketing system where parents and mentors can book tickets for their local club
-- Profile pages for parents, mentors and youths
-- Two forums (Over 13 and community forum), running on [NodeBB](https://nodebb.org/).
-- [Mozilla Open Badges](http://openbadges.org/) integration.
+Incluye:
+- la posibilidad de buscar un Dojo (un grupo de programación) y unirse a él
+- un sistema personalizado por el cual los padres y los mentores pueden reservar una entrada al grupo
+- un perfil para los padres, los mentores y los niños
+- dos foros (Over 13 and community forum), que funcionan en [NodeBB](https://nodebb.org/).
+- integración de [Mozilla Open Badges](http://openbadges.org/)
 
-Most of the technology we use is open source, and we are proud of it! For CoderDojo related questions, contact info@coderdojo.org.
-Get in touch with guillaume@coderdojo.org with any technical questions.
+La mayor parte de la tecnología que usamos es un recurso público, y ¡estamos orgullosos de eso! Para dudas relacionadas con CoderDojo, comunicarse al e-mail info@coderdojo.org .
+Por cuestiones técnicas, comunicarse con guillaume@coderdojo.org .
 
-## Contributing to Zen
+## Colaborar con Zen
 
-There are various ways to contribute to Zen:
+Hay muchas formas de colaborar con Zen:
 
-* as a developer, instructions for creating a local development environment can be found in the [cp-local-development](https://github.com/CoderDojo/cp-local-development) repository. You may also wish to read the [contributing](CONTRIBUTING.md) guide.
-* as a translator, we use [CrowdIn](https://crowdin.com/project/zen-community-platform) to help manage localisation, please sign up and help out!
-* issue management, we keep track of all our issues in GitHub in this repo, [help out here](https://github.com/CoderDojo/community-platform/issues)
-* documentation, by contributing to the documentation in this repository.
+* ser programador y mentor, las instrucciones para crear un espacio de trabajo local se encuentra en el repositorio [cp-local-development](https://github.com/CoderDojo/cp-local-development) . Tal vez te interese leer la guía de colaboración [contributing](CONTRIBUTING.md).
+* ser traductor, usamos[CrowdIn](https://crowdin.com/project/zen-community-platform) para administrar la localización, ¡por favor ingresa y ayúdanos!
+* reportar problemas, registramos las fallas o problemas en un repositorio de GitHub, [aquí puedes ayudar](https://github.com/CoderDojo/community-platform/issues)
+* documentación, puedes añadir documentación en el repositorio.
 
-## Where to begin
+## En dónde comenzar
 
-View our [Speaker Deck](https://speakerdeck.com/helloworldfoundation/contributing-to-zen-the-coderdojo-open-source-community-platform)!
+Mira nuestro [Speaker Deck](https://speakerdeck.com/helloworldfoundation/contributing-to-zen-the-coderdojo-open-source-community-platform)!
 
-There are a few labels in particular that are very useful if you are new to Zen:
-* The [beginner](https://github.com/CoderDojo/community-platform/labels/beginner) label marks anything considered easy enough for a first time contributor. 
-* The [request for comments](https://github.com/CoderDojo/community-platform/labels/request%20for%20comments) label is great for non-coders or people wishing to get familiar with the system. These are often features we are not sure if we want to produce yet, or issues that require clearer implementation guidelines.
-* The [hints provided](https://github.com/CoderDojo/community-platform/labels/hints%20provided) label is attached to anything which has been given a technical spec by someone on the development team.
-* [View this document for a brief overview](https://github.com/CoderDojo/community-platform/blob/master/creating-test-data.md) of the sections of the system and how to access them with the test account.
+Hay algunas secciones que son especialmente útiles si eres nuevo en Zen:
+* La sección [principiante](https://github.com/CoderDojo/community-platform/labels/beginner) tiene cosas lo suficientemente sencillaz para alguien que recién comienza. 
+* La sección [solicitud de comentarios](https://github.com/CoderDojo/community-platform/labels/request%20for%20comments) es muy buena para aquellos que no programan o para quienes quieran conocer el sistema. Aquí hay funciones que no estamos seguros de querer implementar o algunas cuestiones que requieren mejores instrucciones.
+* La sección [recomendaciones](https://github.com/CoderDojo/community-platform/labels/hints%20provided) contiene fallas que tienen indicaciones técnicas dadas por algún programador.
+* [Ver este documento resumen](https://github.com/CoderDojo/community-platform/blob/master/creating-test-data.md) en donde están las secciones del sistema y cómo acceder a ellas con una cuenta de prueba.
 
-### Bug fixes
+### Corrección de Bugs (errores)
 
-* Ideally all of the [bugs](https://github.com/CoderDojo/community-platform/labels/bug) are the most important issues to fix. They are categorised by priority. 
-* There is a [critical bugs milestone](https://github.com/CoderDojo/community-platform/milestones/Critical%20bugs) for the most important bugs.
-* Some bugs are smaller CSS issues that are marked low priority and so are not as important to work on. 
+* Lo ideal es que los [bugs](https://github.com/CoderDojo/community-platform/labels/bug) se arreglen primero ya que son los errores más importantes. Los catalogamos como prioridad.
+* Hay un [documento para bugs urgente](https://github.com/CoderDojo/community-platform/milestones/Critical%20bugs) para los bugs mmás importantes.
+* Algunos bugs son problemas CSS pequeños y no es tan importante trabajar en ellos.
 
-### Priorities for the project
+### Prioridades para el proyecto
 
-Once you're familiar with the codebase, there are a number of labels/milestones to guide you through our roadmap.
-- Our [top priority](https://github.com/CoderDojo/community-platform/labels/top%20priority) label is for features which are the most important
-- For immediate issues, there is a section for [Q1 2016](https://github.com/CoderDojo/community-platform/milestones/2016%20Q1)
-- Issues are sorted by other priority levels, [low](https://github.com/CoderDojo/community-platform/labels/low%20priority), [normal](https://github.com/CoderDojo/community-platform/labels/normal%20priority) and [high](https://github.com/CoderDojo/community-platform/labels/high%20priority)
-- We also have a [short term roadmap](https://github.com/CoderDojo/community-platform/milestones/Short%20term%20roadmap) and [long term roadmap](https://github.com/CoderDojo/community-platform/milestones/Long%20term%20roadmap)
+Después que te familiarices con el código base, hay una serie de secciones que te guiarán en el proyecto:
+- La sección [muy importante](https://github.com/CoderDojo/community-platform/labels/top%20priority) es para las funciones principales.
+- Para cuestiones urgentes, existe la sección [Q1 2016](https://github.com/CoderDojo/community-platform/milestones/2016%20Q1)
+- Clasificamos los problemas en otras categorías, [bajos](https://github.com/CoderDojo/community-platform/labels/low%20priority), [normales](https://github.com/CoderDojo/community-platform/labels/normal%20priority) and [altos](https://github.com/CoderDojo/community-platform/labels/high%20priority)
+- También tenemos la [guía a corto plazo](https://github.com/CoderDojo/community-platform/milestones/Short%20term%20roadmap) y la [guía a largo plazo] (https://github.com/CoderDojo/community-platform/milestones/Long%20term%20roadmap)
 
-Still not sure? Get in touch, let us know what you are interested in working on and we're happy to provide guidance.
+¿Todavía no estás seguro de cómo ayudar? Comunícate con nosotros, cuéntanos en que gustaría colaborar y podremos orientarte.
 
-#### Working on an issue?
+#### ¿Estás trabajando en un problema?
 
-- Comment on it and let us know so we don't duplicate any effort.
-- We can add you to the official CoderDojo development team so you can assign yourself issues. 
-- Please add unit tests where possible to your code. There is an [end to end test repository](https://github.com/CoderDojo/cp-e2e-tests) for front end testing. There is also a tests directory in the root directory of each service and in the [front end repository](https://github.com/CoderDojo/cp-zen-platform/tree/master/test).
-- Tag [@tangentfairy](https://github.com/tangentfairy) if you have any questions.
+- Comenta en él para que sepamos y no dupliquemos el trabajo.
+- Podemos añadirte al grupo oficial de desarrollo de CoderDojo para que puedas asignarte a ti mismo las fallas.
+- Por favor agrega pruebas de unidad en donde sea posible en tu código. Tenemos el [end to end test repository](https://github.com/CoderDojo/cp-e2e-tests) para pruebas iniciales. También hay un directorio de pruebas en el directorio principal de cada servicio y en el [front end repository](https://github.com/CoderDojo/cp-zen-platform/tree/master/test).
+- Etiqueta a [@tangentfairy](https://github.com/tangentfairy) si tienes alguna pregunta.
 
-## Developer Support
+## Asistencia al programador
 
-* The CoderDojo Foundation Technical Lead is available to help you get set up.
-* Join the [gitter chat](https://gitter.im/CoderDojo/community-platform) if you have any questions.
-* Those who have committed to the project can be added to the Foundation Slack community for daily communications. Please get in touch to be added! 
-* To get in touch, email us at info@coderdojo.org
-* To deploy a change, you'll need to get in touch as only those with commit access can do so. 
-* Have a read through [closed pull requests](https://github.com/CoderDojo/cp-zen-platform/pulls?q=is%3Apr+is%3Aclosed) in the frontend repository to get a feel for what we have been working on.
+* La Fundación Principal Técnica de CoderDojo está disponible para ayudarte a organizarte.
+* Únete al [chat gitter](https://gitter.im/CoderDojo/community-platform) si tienes dudas.
+* Aquellos que se han unido al proyecto, podemos agregarlos al espacio de la Fundación para comunicarnos todos los días.¡Comunícate para ser añadido!
+* Para comunicarte con nosotros puedes enviarnos un e-mail al info@coderdojo.org
+* Para implementar un cambio, debes comunicarte con nosotros ya que solo aquellos que tienen acceso pueden hacerlo.
+* Échale un vistazo a las [closed pull requests](https://github.com/CoderDojo/cp-zen-platform/pulls?q=is%3Apr+is%3Aclosed) en el repositorio para que sepas en qué hemos trabajado.
 
-## License
+## Licencia
 
-The Community Platform (Zen) is copyright The CoderDojo Foundation, and open sourced under the [MIT license](LICENSE.md).
+La Plataforma de la comunidad (Zen) es copyright de la Fundación CoderDojo y es un recurso público bajo la [licencia MIT](LICENSE.md).
 
-## Documentation
+## Documentación
 
-The following is a list of further reading:
+A continuación hay otros documentos para leer:
 
-* [Architecture](architecture.md) - a high level overview of the system, the code layout, etc
-* [Localisation](localisation.md) - some notes on localisation
-* [Forums](forums.md) - some developer notes on the forums
+* [Arquitectura](architecture.md) - una vista rápida del sitema, el diseño del código, etc.
+* [Localización](localisation.md) - algunas notas sobre localización.
+* [Foros](forums.md) - algunas notas de los programadores sobre los foros
