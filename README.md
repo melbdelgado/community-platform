@@ -12,7 +12,7 @@ Si quieres comenzar a configurar tu espacio ya, [visita el repositorio para conf
 
 # Sobre el proyecto
 
-[CoderDojo](coderdojo.com) es una comunidad gratuita de grupos de programación para niños y adolescentes de 7 a 17 años. Es una organización benéfica mundial y actualmente tenemos más de 900 grupos en más de 63 países.
+[CoderDojo](coderdojo.com) es una comunidad gratuita de grupos de programación para niños y adolescentes de 7 a 17 años. Es una organización benéfica mundial. Actualmente tenemos más de 900 grupos en más de 63 países.
 
 Zen fue desarrollado originalmente para encontrar nuevos "Dojos" (grupos de programación) y ayudar a la [Fundación CoderDojo](https://coderdojo.com/about/coderdojo-foundation/) a buscar los nuevos Dojos que se formen.
 En 2015, lo volvimos a desarrollar para que fuese una plataforma integral de la comunidad. La construimos completamente mediante javascript, [NodeJS](https://nodejs.org/) y [AngularJS](https://angularjs.org/).
@@ -21,7 +21,7 @@ Incluye:
 - la posibilidad de buscar un Dojo (un grupo de programación) y unirse a él
 - un sistema personalizado por el cual los padres y los mentores pueden reservar una entrada al grupo
 - un perfil para los padres, los mentores y los niños
-- dos foros (Over 13 and community forum), que funcionan en [NodeBB](https://nodebb.org/).
+- dos foros (más de 13 y un foro de la comunidad) que funcionan en [NodeBB](https://nodebb.org/).
 - integración de [Mozilla Open Badges](http://openbadges.org/)
 
 La mayor parte de la tecnología que usamos es un recurso público, y ¡estamos orgullosos de eso! Para dudas relacionadas con CoderDojo, comunicarse al e-mail info@coderdojo.org .
@@ -31,8 +31,8 @@ Por cuestiones técnicas, comunicarse con guillaume@coderdojo.org .
 
 Hay muchas formas de colaborar con Zen:
 
-* ser programador y mentor, las instrucciones para crear un espacio de trabajo local se encuentra en el repositorio [cp-local-development](https://github.com/CoderDojo/cp-local-development) . Tal vez te interese leer la guía de colaboración [contributing](CONTRIBUTING.md).
-* ser traductor, usamos[CrowdIn](https://crowdin.com/project/zen-community-platform) para administrar la localización, ¡por favor ingresa y ayúdanos!
+* ser programador y mentor, las instrucciones para crear un espacio de trabajo local se encuentran en el repositorio [cp-local-development](https://github.com/CoderDojo/cp-local-development) . Tal vez te interese leer la guía de colaboración [contributing](CONTRIBUTING.md).
+* ser traductor, usamos [CrowdIn](https://crowdin.com/project/zen-community-platform) para administrar la localización, ¡por favor ingresa y ayúdanos!
 * reportar problemas, registramos las fallas o problemas en un repositorio de GitHub, [aquí puedes ayudar](https://github.com/CoderDojo/community-platform/issues)
 * documentación, puedes añadir documentación en el repositorio.
 
@@ -41,7 +41,7 @@ Hay muchas formas de colaborar con Zen:
 Mira nuestro [Speaker Deck](https://speakerdeck.com/helloworldfoundation/contributing-to-zen-the-coderdojo-open-source-community-platform)!
 
 Hay algunas secciones que son especialmente útiles si eres nuevo en Zen:
-* La sección [principiante](https://github.com/CoderDojo/community-platform/labels/beginner) tiene cosas lo suficientemente sencillaz para alguien que recién comienza. 
+* La sección [principiante](https://github.com/CoderDojo/community-platform/labels/beginner) tiene cosas lo suficientemente sencillas para alguien que recién comienza. 
 * La sección [solicitud de comentarios](https://github.com/CoderDojo/community-platform/labels/request%20for%20comments) es muy buena para aquellos que no programan o para quienes quieran conocer el sistema. Aquí hay funciones que no estamos seguros de querer implementar o algunas cuestiones que requieren mejores instrucciones.
 * La sección [recomendaciones](https://github.com/CoderDojo/community-platform/labels/hints%20provided) contiene fallas que tienen indicaciones técnicas dadas por algún programador.
 * [Ver este documento resumen](https://github.com/CoderDojo/community-platform/blob/master/creating-test-data.md) en donde están las secciones del sistema y cómo acceder a ellas con una cuenta de prueba.
@@ -57,10 +57,10 @@ Hay algunas secciones que son especialmente útiles si eres nuevo en Zen:
 Después que te familiarices con el código base, hay una serie de secciones que te guiarán en el proyecto:
 - La sección [muy importante](https://github.com/CoderDojo/community-platform/labels/top%20priority) es para las funciones principales.
 - Para cuestiones urgentes, existe la sección [Q1 2016](https://github.com/CoderDojo/community-platform/milestones/2016%20Q1)
-- Clasificamos los problemas en otras categorías, [bajos](https://github.com/CoderDojo/community-platform/labels/low%20priority), [normales](https://github.com/CoderDojo/community-platform/labels/normal%20priority) and [altos](https://github.com/CoderDojo/community-platform/labels/high%20priority)
+- Clasificamos los problemas en otras categorías, [bajos](https://github.com/CoderDojo/community-platform/labels/low%20priority), [normales](https://github.com/CoderDojo/community-platform/labels/normal%20priority) y [altos](https://github.com/CoderDojo/community-platform/labels/high%20priority)
 - También tenemos la [guía a corto plazo](https://github.com/CoderDojo/community-platform/milestones/Short%20term%20roadmap) y la [guía a largo plazo] (https://github.com/CoderDojo/community-platform/milestones/Long%20term%20roadmap)
 
-¿Todavía no estás seguro de cómo ayudar? Comunícate con nosotros, cuéntanos en que gustaría colaborar y podremos orientarte.
+¿Todavía no estás seguro de cómo ayudar? Comunícate con nosotros, cuéntanos en que te gustaría colaborar y podremos orientarte.
 
 #### ¿Estás trabajando en un problema?
 
@@ -73,7 +73,7 @@ Después que te familiarices con el código base, hay una serie de secciones que
 
 * La Fundación Principal Técnica de CoderDojo está disponible para ayudarte a organizarte.
 * Únete al [chat gitter](https://gitter.im/CoderDojo/community-platform) si tienes dudas.
-* Aquellos que se han unido al proyecto, podemos agregarlos al espacio de la Fundación para comunicarnos todos los días.¡Comunícate para ser añadido!
+* Para aquellos que se hayan unido al proyecto, podemos agregarlos al espacio de la Fundación para comunicarnos todos los días.¡Comunícate para ser añadido!
 * Para comunicarte con nosotros puedes enviarnos un e-mail al info@coderdojo.org
 * Para implementar un cambio, debes comunicarte con nosotros ya que solo aquellos que tienen acceso pueden hacerlo.
 * Échale un vistazo a las [closed pull requests](https://github.com/CoderDojo/cp-zen-platform/pulls?q=is%3Apr+is%3Aclosed) en el repositorio para que sepas en qué hemos trabajado.
@@ -87,5 +87,5 @@ La Plataforma de la comunidad (Zen) es copyright de la Fundación CoderDojo y es
 A continuación hay otros documentos para leer:
 
 * [Arquitectura](architecture.md) - una vista rápida del sitema, el diseño del código, etc.
-* [Localización](localisation.md) - algunas notas sobre localización.
+* [Localización](localisation.md) - algunas notas sobre la localización.
 * [Foros](forums.md) - algunas notas de los programadores sobre los foros
