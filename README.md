@@ -1,21 +1,21 @@
 # Zen, la Plataforma Comunitaria de CoderDojo
 
-[![Join the chat at https://gitter.im/CoderDojo/community-platform](https://badges.gitter.im/CoderDojo/community-platform.svg)](https://gitter.im/CoderDojo/community-platform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[!Únete al chat en https://gitter.im/CoderDojo/community-platform](https://badges.gitter.im/CoderDojo/community-platform.svg)](https://gitter.im/CoderDojo/community-platform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Bienvenidos a "Zen"! You can see the live site at [zen.coderdojo.com](https://zen.coderdojo.com).
+¡Bienvenidos a "Zen"! Pueden ver el sitio web en [zen.coderdojo.com](https://zen.coderdojo.com).
 
-Este repositorio es la documentación del proyecto. [We log issues in this repository](https://github.com/CoderDojo/community-platform/issues).
+Este repositorio es la documentación del proyecto. [Aquí registramos todo](https://github.com/CoderDojo/community-platform/issues).
 
-There are also [three microservice repositories and a frontend repository](https://github.com/CoderDojo/community-platform/blob/master/architecture.md).
+También hay [tres repositorios de microservice y a frontend repository](https://github.com/CoderDojo/community-platform/blob/master/architecture.md).
 
-If you want to jump straight in to getting your development environment set up, [visit the development environment repository here](https://github.com/CoderDojo/cp-local-development).
+Si quieres comenzar a configurar tu espacio ya, [visita el repositorio para configuración del espacio](https://github.com/CoderDojo/cp-local-development).
 
-# About the project
+# Sobre el proyecto
 
-[CoderDojo](coderdojo.com) is a network of free computer programming clubs for youths aged 7-17. It is a global charity and we currently have more than 900 clubs in over 63 countries!
+[CoderDojo](coderdojo.com) es una comunidad gratuita de grupos de programación para niños y adolescentes de 7 a 17 años. Es una organización benéfica mundial y actualmente tenemos más de 900 grupos en más de 63 países.
 
-Zen was originally set up to track new "Dojos" (coding clubs) and help the [CoderDojo Foundation](https://coderdojo.com/about/coderdojo-foundation/) track new clubs being set up worldwide.
-In 2015, it was redeveloped to be a fully fledged community platform. It is built entirely in javascript using [NodeJS](https://nodejs.org/) and [AngularJS](https://angularjs.org/).
+Zen fue desarrollado originalmente para encontrar nuevos "Dojos" (grupos de programación) y ayudar a la [Fundación CoderDojo](https://coderdojo.com/about/coderdojo-foundation/) a buscar los nuevos Dojos que se formen.
+En 2015, it was redeveloped to be a fully fledged community platform. It is built entirely in javascript using [NodeJS](https://nodejs.org/) and [AngularJS](https://angularjs.org/).
 
 It includes:
 - Ability to search for a Dojo (coding club) and join the club
