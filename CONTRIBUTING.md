@@ -1,85 +1,80 @@
-# Contributing to Community Platform (Zen)
+# Colaborar en la plataforma de la comunidad (Zen)
 
-## Issue Contributions
+## Para ayudar con las fallas
 
-When opening new issues or commenting on existing issues on this repository
-please make sure discussions are related to concrete technical issues with the
-Zen software.
+Cuando reportes nuevos problemas o quieras comentar en alguno 
+que ya fue reportado en el repositorio, por favor asegúrate de que 
+las discusiones se refieran a problemas técnicos concretos con el software de Zen.   
 
-Discussion of non-technical topics including subjects like intellectual
-property, trademark and high level project questions ideally should move to the
-[Forums](https://forums.coderdojo.com) instead.
+Lo ideal es que las discusiones sobre temas que no son técnicos, 
+incluyendo la propiedad intelectual, la marca y las preguntas complejas 
+sobre el proyecto sean propuestas en los [Foros](https://forums.coderdojo.com) 
 
-## Code Contributions
+## Para ayudar con la programación
 
-The Zen project welcomes new contributors.
-Individuals making significant and valuable contributions are made
-_Collaborators_ and given commit-access to the project. 
+El proyecto Zen les da la bienvenida a los nuevos colaboradores.
+Los invididuos que contribuyen activa y significativamente se convierten en
+_Colaboradores_ y obtienen permiso de acceder al proyecto.
 
-This document will guide you through the contribution process.
+Este documento te guiará por el proceso de colaboración.
 
-### Step 1: Fork
+### Paso 1: Copiar
 
-Fork the project [on GitHub](https://github.com/CoderDojo/cp-local-development) and check out your
-copy locally. 
+Encuentra y realiza una copia del proyecto [en GitHub](https://github.com/CoderDojo/cp-local-development).
+Luego verifica que tengas una copia propia.
+
+#### ¿En cuál área?
+
+Para programa nuevas funciones y arreglar bugs (errores),
+es necesario desarrollar el área `master` . Zen sigue un modelo de [integración continua](https://en.wikipedia.org/wiki/Continuous_integration),
+en el cual el área master se dedica siempre a producir. 
+
+Por favor lee y sigue las [instrucciones en el repositorio de desarrollo](https://github.com/CoderDojo/cp-local-development) para iniciar tu espacio de desarrollo.
 
 
-#### Which branch?
+### Paso 2: Área
 
-For developing new features and bug fixes, the `master` branch needs to be pulled
-and built upon. Zen follows a [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
-model, where the master branch is always deployed to production. 
-
-Please follow [instructions on the development repository](https://github.com/CoderDojo/cp-local-development) to get your development environment set up.
-
-
-### Step 2: Branch
-
-Create a feature branch and start hacking:
+Crea una función en el área y comienza a hackear: 
 
 ```text
 $ git checkout -b my-feature-branch -t origin/master
 ```
 
-### Step 3: Commit
+### Paso 3: Enviar
 
-Make sure git knows your name and email address:
+Asegúrate de que Git renoce tu usuario y tu e-mail:
 
 ```text
 $ git config --global user.name "J. Random User"
 $ git config --global user.email "j.random.user@example.com"
 ```
 
-Writing good commit logs is important.  A commit log needs to describe what
-changed and why.  Follow these guidelines when writing one:
+Es importante escribir correctamente los reportes. Un mensaje de reportes debe describir qué fue modificado y por qué. 
+Sigue estas instrucciones cuando escribas:
 
-1. The first line ideally should be 50 characters or less and contain a short
-description of the change 
-2. Keep the second line blank.
-3. Wrap all other lines at 72 columns.
+1. La primera línea debe tener 50 caracteres o menos y describir brevemente la modificación.
+2. La segunda línea queda en blanco.
+3. Inserta las demás líneas en 72 columnas.
 
-A good commit log can look something like this:
+Un buen mensaje es similar a lo siguiente:
 
 ```
-explaining the commit in one line
+explicar el reporte en una línea
 
-Body of commit message is a few lines of text, explaining things
-in more detail, possibly giving some background about the issue
-being fixed, etc. etc.
+En el cuerpo  del reporte explicar detalladamente los cambios
+y tal vez proporcionar algunos antecendentes de la solución del problema, etc.
 
-The body of the commit message can be several paragraphs, and
-please do proper word-wrap and keep columns shorter than about
-72 characters or so. That way `git log` will show things
+El cuerpo puede ocupar varios párrafos. Por favor, achica las palabras y mantén las columnas 
+en menos de 72 caracteres más o menos. De esa forma el 'git log' mostrará * show things
 nicely even when it is indented.
 ```
 
-The header line needs to be meaningful; it is what other people see when they
-run `git shortlog` or `git log --oneline`.
+El encabezamiento debe ser significativo ya que es lo que las otras personas verá cuando ingresen a  `git shortlog` o a `git log --oneline`.
 
 
-### Step 4: Rebase
+### Paso 4: Reconstruir
 
-Use `git rebase` (not `git merge`) to sync your work from time to time.
+Usa `git rebase` (no `git merge`) para sincronizar tu trabajo de vez en cuando.
 
 ```text
 $ git fetch upstream
@@ -87,89 +82,87 @@ $ git rebase upstream/master
 ```
 
 
-### Step 5: Test
+### Paso 5: Prueba
 
-Bug fixes and features **need to come with tests**.  Add your tests in the
-test directory of each effected microservice. Look at other tests to see how they are structured.
+ Es necesario  **incluir pruebas** cuando se reparan bugs y otras funciones. Agrega tus pruebas en el directorio de prueba de cada microservicio afectado. Revisa otras pruebas para ver cómo deben estructurarse. 
 
 ```text
 $ npm test
 ```
 
 Make sure the linter is happy and that all tests pass.  Please, do not submit
-patches that fail either check.
+patches that fail either check. *
 
-You can run individual tests directly with Lab:
+puedes llevar a cabo pruebas individuales en el laboratorio:
 
 ```text
 $ ./node_modules/.bin/lab test/lib/test-user-data.js
 ```
 
-### Step 6: Push
+### Pase 6: Ejecutar
 
 ```text
 $ git push origin my-feature-branch
 ```
 
-Go to https://github.com/yourusername/<zen-repo> and select your feature branch.
-Click the 'Pull Request' button and fill out the form.
+Ve a https://github.com/yourusername/<zen-repo> y selecciona tu área.
+Haz click en 'Pull Request' y completa el formulario.
 
-Pull requests are usually reviewed within a few days.  If there are comments
-to address, apply your changes in a separate commit and push that to your
-feature branch.  Post a comment in the pull request afterwards; GitHub does
-not send out notifications when you add commits.
-
-
-## Developer's Certificate of Origin 1.0
-
-By making a contribution to this project, I certify that:
-
-* (a) The contribution was created in whole or in part by me and I
-have the right to submit it under the open source license indicated
-in the file; or
-* (b) The contribution is based upon previous work that, to the best
-of my knowledge, is covered under an appropriate open source license
-and I have the right under that license to submit that work with
-modifications, whether created in whole or in part by me, under the
-same open source license (unless I am permitted to submit under a
-different license), as indicated in the file; or
-* (c) The contribution was provided directly to me by some other
-person who certified (a), (b) or (c) and I have not modified it.
+Revisamos las solicitudes en unos días. Si quieres realizar comentarios,
+aplica los cambios en un reporte aparte y envíalos a tu área.
+Publica comentarios en la solicitud después.
+GitHub no envía notificaciones cuando añades reportes.
 
 
-## Code of Conduct
+## Certificado del Programador 1.0
 
-This Code of Conduct is adapted from [Rust's wonderful
+Al contribuir certifico que:
+
+* (a) Yo realicé (parcial o completamente) la contribución y
+tengo el derecho de enviarla bajo la licencia del recurso
+público indicada en este archivo; o
+* (b) La contribución está basada en trabajo anterior
+con mi conocimiento, está bajo la licencia del recurso público
+correspondiente y tengo el derecho de (bajo esa licencia,
+excepto tenga permiso de usar otra) de enviar ese trabajo 
+con modificaciones parciales o totales hechas por mí; o
+* (c) Otra persona que certificó (a), (b) o (c)
+* me proporcionó la contribución y no la he modificado.
+
+
+## Código de Conducta
+
+Este código ha sido adaptado de [Rust's wonderful
 CoC](http://www.rust-lang.org/conduct.html).
 
-* We are committed to providing a friendly, safe and welcoming
-environment for all, regardless of gender, sexual orientation,
-disability, ethnicity, religion, or similar personal characteristic.
-* Please avoid using overtly sexual nicknames or other nicknames that
-might detract from a friendly, safe and welcoming environment for
-all.
-* Please be kind and courteous. There's no need to be mean or rude.
-* Respect that people have differences of opinion and that every
-design or implementation choice carries a trade-off and numerous
-costs. There is seldom a right answer.
-* Please keep unstructured critique to a minimum. If you have solid
-ideas you want to experiment with, make a fork and see how it works.
-* We will exclude you from interaction if you insult, demean or harass
-anyone.  That is not welcome behavior. We interpret the term
-"harassment" as including the definition in the [Citizen Code of
-Conduct](http://citizencodeofconduct.org/); if you have any lack of
-clarity about what might be included in that concept, please read
-their definition. In particular, we don't tolerate behavior that
-excludes people in socially marginalized groups.
-* Private harassment is also unacceptable. No matter who you are, if
-you feel you have been or are being harassed or made uncomfortable
-by a community member, please contact one of the channel ops or any
-of the TC members immediately with a capture (log, photo, email) of
-the harassment if possible.  Whether you're a regular contributor or
-a newcomer, we care about making this community a safe place for you
-and we've got your back.
-* Likewise any spamming, trolling, flaming, baiting or other
-attention-stealing behavior is not welcome.
-* Avoid the use of personal pronouns in code comments or
-documentation. There is no need to address persons when explaining
-  code (e.g. "When the developer")
+* Estamos comprometidos a proveer un ambiente amigable y seguro
+para todos, sin importar el sexo, la orientación sexual,
+las discapacidades, la etnia, la religión u otras características
+personales similares.
+* Evita utilizar abiertamente apodos sexuales o que puedan menoscabar
+el ambiente amigable, seguro y tolerante para todos.
+* Por favor sé amable y cordial. No es necesario ser agresivo o grosero.
+* Respeta el hecho de que las personas difieren en sus opiniones
+y que diseñar e implementar elecciones acarrea cambios y costos.
+Rara vez hay una respuesta correcta.
+* No realices críticas que no sean constructivas. Si tienes ideas
+sólidas con las que quieres experimentar, haz un esfuerzo y
+observa cómo funcionan.
+* Serás excluido de la interacción si insultas, degradas o 
+acosas a cualquier persona. No toleramos ese comportamiento. 
+Interpretamos el término "acoso" según la definición el
+[Código de Conduta](http://citizencodeofconduct.org/);
+si no comprendes el concepto, por favor revisa la definición.
+Particularmente, no toleramos que se excluya a personas en grupos
+socialmente marginalizados.
+* El acoso privado no es aceptable. No importa quien seas, si sientes
+que algún miembro de la comunidad te acosa o te hace sentir incómodo,
+por favor comúnicate a través de algún canal o con cualquier miembro
+de TC de inmediat con alguna captura (foto, email) del acoso en lo posible.
+Ya seas un colaborador habitual o un nuevo miembro, nos importa
+que la comunidad sea un lugar seguro para ti y te apoyaremos.
+* Del mismo modo, cualquier spamming, trolling, flaming, baiting
+u otras formas de llamar la atención son intolerables.
+*Evita utilizar pronombres personales en los comentarios del código
+o en la documentación. No es necesario mencionar personas cuando
+expliques el código.
